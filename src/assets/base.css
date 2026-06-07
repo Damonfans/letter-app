@@ -1,0 +1,20 @@
+:root {
+  --color-background: transparent;
+  --color-heading: #4a4a4a;
+  --color-text: #5a5a5a;
+  --section-gap: 160px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  line-height: 1.6;
+}

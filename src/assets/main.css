@@ -1,0 +1,33 @@
+@import './base.css';
+
+@font-face {
+  font-family: '油茶馓子体';
+  src: url('./fonts/油茶饊子體.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: '迫真打字油印体';
+  src: url('./fonts/迫真打字油印體.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: '油茶馓子体', 'STKaiti', 'KaiTi', serif;
+  background: linear-gradient(135deg, #f5f0e8 0%, #e8dcc8 100%);
+  min-height: 100vh;
+}
+
+#app {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
